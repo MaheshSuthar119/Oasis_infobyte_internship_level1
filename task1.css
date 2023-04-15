@@ -1,0 +1,102 @@
+/* Basic styles */
+body {
+	 box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 100%;
+	height: auto;
+	background: url(background_img.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+}
+nav{
+	width: 100%;
+	height: 100px;
+	color: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logo{
+	font-size: 3em;
+	letter-spacing: 2px;
+	color: bisque;
+}
+
+.menu a{
+	text-decoration: none;
+	color: black;
+	padding: 10px 20px;
+	font-size: 20px;
+	position: relative;
+}
+
+.menu a:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/* background-color: indianred; */
+	border-bottom: 2px solid black;
+	transition: 0.4s ;
+    
+}
+
+.menu a:hover:before{
+	width: 80%;
+
+}
+
+.register a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	font-size: 20px;
+	background: indianred;
+	border-radius: 8px;
+	transition: 0.4s ;
+}
+
+.register a:hover{
+	background: transparent;
+	border: 1px solid black;
+
+}
+
+.h-txt{
+	max-width: 650px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: khaki;
+}
+.h-txt span{
+	letter-spacing: 5px;
+	font-size: 1.5em;
+}
+
+.h-txt h1{
+	font-size: 2em;
+}
+
+.h-txt h1{
+	text-decoration: none;
+	background: indianred;
+	color:  khaki;
+	padding: 10px 20px;
+}
+
+.image {
+	margin-left: 85%;
+	margin-top: 33%;
+
+}
+ 
